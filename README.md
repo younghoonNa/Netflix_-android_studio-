@@ -8,8 +8,8 @@ _> 반드시 배운 내용을 활용하여 만들 것. 외부 프로젝트 가�
 &nbsp; &nbsp; &nbsp; -> 앱 실행시 bgm(mp3) 나오게 하는 과정 배우지 않았으므로 ImageButton활용하여 나오게 하였음. <br>
 &nbsp; &nbsp; &nbsp; -> 앱 실행시 나오게 하기 위해선 https://blog.naver.com/ga5336/222486194811 참조 <br>
 <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 오징어 게임 4개의 캐릭터 중 하나로 로그인 하는 기능.
-&nbsp; &nbsp; &nbsp; -> RelativeLayout 사용, RelativLayout으로 상대적인 위치 구현하기 복습.
-&nbsp; &nbsp; &nbsp; -> 보기 불편하면 LinearLayout으로 바꿀 예정.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 오징어 게임 4개의 캐릭터 중 하나로 로그인 하는 기능. <br>
+&nbsp; &nbsp; &nbsp; -> RelativeLayout 사용, RelativLayout으로 상대적인 위치 구현하기 복습. <br>
+&nbsp; &nbsp; &nbsp; -> 보기 불편하면 LinearLayout으로 바꿀 예정. <br>
                   
               
