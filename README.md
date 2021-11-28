@@ -25,6 +25,15 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 &nbsp; &nbsp; &nbsp; -> 일기장 기능 응용. <br>
 <br>
 
+2021.11.29 일 : 자기소개 XML / Java 파일 완성 <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 메인 페이지 화면 구성 끝.  <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 과제 6개 중 5개 사용하여 구성, 1개는 응용 (-ing)  <br>
+&nbsp; &nbsp; &nbsp; 실패내역1 : 서랍을 통해 포스터 종류 및 공간 늘리기 -> Tabhost 사용으로 인한 공간 늘리기 불가. <br>
+&nbsp; &nbsp; &nbsp; 실패내역2 : AutoCompleteTextView -> 이미지 출력하라면 ArrayList 사용, <br>
+&nbsp; &nbsp; &nbsp; 실패내역3 : GridView -> Tabhost 사용으로 인한 사용 불가. <br>
+
+<br>
+
 
                   
             
