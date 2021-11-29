@@ -34,6 +34,12 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 
 <br>
 
+2021.11.30 월 : 과제 모음 5개 XML / Java 파일 완성 <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 제약이 너무 많아서 Tabhost 사용 하단바 없애고 합치기  <br>
+![image](https://user-images.githubusercontent.com/38518648/143816131-94c90ca2-3ea4-4925-96a5-4f43c4a6f721.png)
+![image](https://user-images.githubusercontent.com/38518648/143816247-62c7d234-702a-434f-8485-303f510ba816.png)
+
+
 
                   
             
