@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#232323">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:textColorHint="@color/white"
+        android:hint="자동완성텍스트뷰" >
+    </AutoCompleteTextView>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:textColorHint="@color/white"
+        android:hint="멀티자동완성텍스트뷰" />
+
+    <LinearLayout
+        android:id="@+id/pictureLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibZoomin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_in" />
+
+        <ImageButton
+            android:id="@+id/ibZoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_out" />
+
+        <ImageButton
+            android:id="@+id/ibRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rotate" />
+
+        <ImageButton
+            android:id="@+id/ibBright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bright" />
+
+        <ImageButton
+            android:id="@+id/ibDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dark" />
+
+        <ImageButton
+            android:id="@+id/ibBlur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/blur" />
+
+        <ImageButton
+            android:id="@+id/ibEmbossing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/embos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/BarGroup"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_weight="1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:max="100"
+            android:progress="20"
+            android:secondaryProgress="50" />
+
+        <SeekBar
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="20" />
+
+        <RatingBar
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:numStars="5"
+            android:rating="1.5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#454545"
+            android:textColor="@color/white"
+            android:id="@+id/handle"
+            android:text="서랍 열기."/>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#565656"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnExpand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="확장."/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnNewActivity1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자기소개 페이지"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서랍 닫기"/>
+
+
+        </LinearLayout>
+    </SlidingDrawer>
+
+
+    <!--    <TextView-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30dp"-->
+<!--        android:id="@+id/tvMain"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="20dp"/>-->
+
+
+
+</LinearLayout>

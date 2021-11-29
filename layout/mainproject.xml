@@ -1,0 +1,697 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#232323">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- scroll view 아래는 LinearLayout 1개-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Main_Title 영화 설명 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#232323"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/mainImg"
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:src="@drawable/tazza" />
+
+                            <LinearLayout
+                                android:layout_marginTop="-20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="타 짜"
+                                    android:textColor="#AA0000"
+                                    android:textSize="30dp" />
+
+                                <TextView
+                                    android:layout_marginTop="-15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="출연 : 조승우, 김혜수, 백윤식\n감독 : 최동훈"
+                                    android:textColor="#787878"
+                                    android:textSize="10dp"/>
+
+                            </LinearLayout>
+
+
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="스릴러  ●  범죄  ●  드라마  ●  긴장남 넘치는  ●  청소년 관람 불가 "
+                                android:layout_gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <LinearLayout
+                                android:layout_marginTop="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#232323"
+                                        android:text="\t+\t\n 찜한 콘텐츠"
+                                        android:id="@+id/btnLove"
+                                        android:textColor="@color/white"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@color/white"
+                                        android:id="@+id/btnPlay"
+                                        android:text=" ▶︎ 재생 "
+                                        android:textColor="@color/black"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#232323"
+                                        android:id="@+id/btnInfo"
+                                        android:text="\tⓘ\t\n\t정보"
+                                        android:textColor="@color/white"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 1번째 horizontal scroll view 설명 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="당신의 Best 영화를 투표해주세요. "
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+
+                            <Button
+                                android:id="@+id/btnResult"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#232323"
+                                android:text="투표하기"
+                                android:textColor="@color/white"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+
+                        <!-- 1번째 scrollView -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <!-- horizontal scroll view -->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/iv1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/bumzui" />
+
+                                    <ImageView
+                                        android:id="@+id/iv2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/chiken" />
+
+                                    <ImageView
+                                        android:id="@+id/iv3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/vt" />
+
+                                    <ImageView
+                                        android:id="@+id/iv4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/wra" />
+
+                                    <ImageView
+                                        android:id="@+id/iv5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/bro" />
+
+                                    <ImageView
+                                        android:id="@+id/iv6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/devil" />
+
+                                    <ImageView
+                                        android:id="@+id/iv7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/inner" />
+
+                                    <ImageView
+                                        android:id="@+id/iv8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/lookfor" />
+
+                                    <ImageView
+                                        android:id="@+id/iv9"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/man" />
+
+                                    <ImageView
+                                        android:id="@+id/iv10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/year" />
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 2번째 horizontal scroll view 설명 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="파일 입출력 활용한 한국 드라마 보기"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:text="클릭시 설명과 사진이 나타납니다."
+                                android:textColor="@color/white"
+                                android:textSize="8dp" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/img2_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/binsenzo" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/doctor" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/doggabi" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/getmaeul" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/hotel" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/leetaewon" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/life" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/love" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_9"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/melo" />
+
+                                    <ImageView
+                                        android:id="@+id/img2_10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:src="@drawable/signel" />
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 3번째 horizontal scroll view-->
+                    <!-- Frame Layout -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/frameLayout"
+                            android:visibility="gone"
+                            android:background="#454545">
+
+                            <ImageView
+                                android:layout_marginRight="300dp"
+                                android:layout_gravity="left"
+                                android:id="@+id/frameImg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/abouttime"/>
+
+                            <TextView
+                                android:id="@+id/frameMain"
+                                android:layout_marginLeft="120dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="텍스트 제목!!"
+                                android:textStyle="bold"
+                                android:textSize="20dp"/>
+
+                            <TextView
+                                android:id="@+id/framepeople"
+                                android:layout_marginLeft="120dp"
+                                android:layout_marginTop="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="출연진"
+                                android:textColor="#232323"
+                                android:textStyle="bold"
+                                android:textSize="10dp"/>
+
+                            <TextView
+                                android:id="@+id/frameinfo"
+                                android:layout_marginLeft="120dp"
+                                android:layout_marginTop="45dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="영화 내용 이리저리 설명 블랍르랄블라 \n 블러브르르럴러"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:textSize="12dp"/>
+
+                            <Button
+                                android:layout_marginLeft="120dp"
+                                android:layout_marginTop="100dp"
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:textColor="@color/black"
+                                android:background="@color/white"
+                                android:textSize="15dp"
+                                android:id="@+id/framePlay"
+                                android:text=" ▶︎ 재생 "/>
+
+                            <Button
+                                android:layout_marginLeft="290dp"
+                                android:layout_marginTop="95dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:textSize="15dp"
+                                android:background="#454545"
+                                android:id="@+id/backBtn"
+                                android:text=" 돌아가기. "/>
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/review"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FrameLayout사용하여 설명보기"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="18dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="파일입출력 사용X"
+                                android:textColor="#676767"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="12dp"/>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/LinearFrame"
+                            android:orientation="horizontal">
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv1"
+                                        android:src="@drawable/abouttime"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv2"
+                                        android:src="@drawable/gum4"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv3"
+                                        android:src="@drawable/heartsignel"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv4"
+                                        android:src="@drawable/knowbro"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv5"
+                                        android:src="@drawable/knowing"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv6"
+                                        android:src="@drawable/lawschool"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv7"
+                                        android:src="@drawable/loveinterffer"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv8"
+                                        android:src="@drawable/nowyouseeme"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv9"
+                                        android:src="@drawable/sweethome"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:layout_marginRight="10dp"
+                                        android:id="@+id/mv10"
+                                        android:src="@drawable/stroy"/>
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 4번째 서랍 열기 + 파일 입출력 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="#232323"
+                        android:orientation="vertical">
+
+                        <SlidingDrawer
+                            android:id="@+id/slidingDrawer1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:content="@+id/content"
+                            android:handle="@+id/handle" >
+
+                            <Button
+                                android:id="@+id/handle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:text="서랍을 열어 추가 사진을 불러옵니다." />
+
+                            <LinearLayout
+                                android:id="@+id/content"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#454545"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <HorizontalScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/slideimg1"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/knowingslide"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg2"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/wowcowmoon"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg3"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/kimbiseo"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg4"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/lovingbell"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg5"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/anotherperson"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg6"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/d_p"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg7"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/pochea"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg8"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/myheartsound"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg9"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/myid"/>
+
+                                        <ImageView
+                                            android:id="@+id/slideimg10"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/kingdum"/>
+
+                                    </LinearLayout>
+                                </HorizontalScrollView>
+                            </LinearLayout>
+                        </SlidingDrawer>
+                    </LinearLayout>
+
+                    <!-- 여기는 1번째 칸  /// 부분 -->
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
