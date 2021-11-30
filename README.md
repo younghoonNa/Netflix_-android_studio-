@@ -25,7 +25,7 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --> 재생, 찜하기, 다운로드 버튼 누르면 Toast로 구현이 안됐습니다. 출력. <br><br>
 
 &nbsp; &nbsp; &nbsp; 기능 3 : 1번째 줄 10개의 Image -> HorizontalScrollView 사용하여 가로로 넘겨보게 함. 13주차 명화 투표 앱 기능을 응용.  (11/23) <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + 이미지 클릭시 토스트로 투표 증가 및 투표 수 보여줌.  <br
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + 이미지 클릭시 토스트로 투표 증가 및 투표 수 보여줌.  <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ++ 투표완료 버튼 누르면 VoteResultButton으로 넘어가서 가장 많이 투표 된 Image의 Poster 출력 및 투표 현황 보여줌. (11/30) <br><br>
 
 &nbsp; &nbsp; &nbsp; 기능 4 : 2번째 줄 1번째와 같이 HorizontalScrollView 사용. + 11주차 파일 입출력 응용. (11/28) <br>
@@ -62,7 +62,7 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 6. 자기 소개 화면 -> RelativeLayout 사용. // 11/28일 완료<br>
 7. AutoCompleteTextView 자동 검색 기능 -> 11/30일 탑재. but 구현 가능한 기능이 너무 제한되어있음. -> 탑재만 함, 기능구현X <br>
 
-
+<h2> 시행착오 </h2>
 2021.11.28 일 : 자기소개 XML / Java 파일 완성 <br>
 &nbsp; &nbsp; &nbsp; 실패내역1 : 서랍을 통해 포스터 종류 및 공간 늘리기 -> Tabhost 사용으로 인한 공간 늘리기 불가. <br>
 &nbsp; &nbsp; &nbsp; 실패내역2 : AutoCompleteTextView -> 이미지 출력하라면 ArrayList 사용, <br>
