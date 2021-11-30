@@ -74,4 +74,6 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 제약이 너무 많아서 Tabhost 사용 X, 하단바 없애고 검색 페이지와 합치기  <br>
 <img width="20%" src="https://user-images.githubusercontent.com/38518648/143816131-94c90ca2-3ea4-4925-96a5-4f43c4a6f721.png"/>
 <img width="20%" src="https://user-images.githubusercontent.com/38518648/143816247-62c7d234-702a-434f-8485-303f510ba816.png"/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :   <br>
+다음과 같이 하나로 합쳐짐  --->>
+<img width="20%" src="https://user-images.githubusercontent.com/38518648/144051971-84405fac-b033-4bcb-ad62-8ece361075c0.png"/>
+
