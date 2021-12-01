@@ -65,9 +65,11 @@ _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개
 <h2> 시행착오 </h2>
 2021.11.28 일 : 자기소개 XML / Java 파일 완성 <br>
 &nbsp; &nbsp; &nbsp; 실패내역1 : 서랍을 통해 포스터 종류 및 공간 늘리기 -> Tabhost 사용으로 인한 공간 늘리기 불가. <br>
+-> 탭호스트 제거 후 Tabhost의 내용인 AutoCompleteTextView와 MainProject 합침
 &nbsp; &nbsp; &nbsp; 실패내역2 : AutoCompleteTextView -> 이미지 출력하라면 ArrayList 사용, <br>
+-> AutoCompleteTextView는 구현만 함. 구동 X
 &nbsp; &nbsp; &nbsp; 실패내역3 : GridView -> HorizontalScrollView 사용으로 인한 사용 불가. <br>
-
+-> FrameLayout으로 대체
 <br>
 
 2021.11.29 월 : 과제 모음 5개 XML / Java 파일 완성 <br>
