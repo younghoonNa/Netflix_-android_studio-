@@ -5,6 +5,11 @@
 _> <b> 반드시 배운 내용을 활용하여 만들 것. 외부 프로젝트 가져오기 X </b><br>
 _> <b> 수업시간에 사용한 메인 프로젝트 1개 이상, 과제는 5개 이상 섞기. </b><br>
 
+<img width="40%" src="https://user-images.githubusercontent.com/38518648/144860423-3ba2ebaa-2f08-484e-9776-468cc3373e07.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/38518648/144860594-90524a37-e111-4bd3-b4a9-fec88ba32d09.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/38518648/144860713-5f86ab4e-cef8-4119-b532-aebcd53b4068.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/38518648/144860765-167c7ab4-363a-453c-b88a-8c9e46047057.png"/>
+
 1.mainActivity :  11/26완료. <br>
 &nbsp; &nbsp; &nbsp; 기능 1 : 이미지 버튼 사용하여 NetFilx 이미지 클릭시 프로젝트 시작. <br>
 &nbsp; &nbsp; &nbsp; 기능 2 : NetFilx 이미지버튼 클릭시 bgm(mp3) 나오게 함.  <br>
